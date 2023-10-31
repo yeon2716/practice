@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header {}
+
+#header h1 {
+    float: left;
+    width: 110px;
+    padding-top: 15px;
+}
+
+#header h1 a {}
+
+#header h1 a img {
+    width: 100%;
+ 
+}
+
+#header .nav {
+    float: right;
+    background-color: #ddd;
+}
+
+#header .nav ul {}
+
+#header .nav ul li {
+    position: relative;
+    float: left;
+    width: 140px;
+    text-align: center;
+}
+
+#header .nav ul li a {
+    display: block;
+    padding: 24px 20px 20px;
+}
+
+#header .nav ul li .submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 66px;
+}
+
+#header .nav ul li .submenu li {}
+
+#header .nav ul li .submenu li a {
+padding: 10px;
+}
+
+
+/******* banner *******/
+
+#banner {
+    overflow: hidden;
+}
+
+#banner .slidelist {
+    width: 3000px;
+    position: relative;
+}
+
+#banner .slidelist .slideImg {
+    position: relative;
+    float: left;
+    width: 1000px;
+}
+
+
+#banner .slidelist .slideImg h2{
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,.4);
+    padding: 10px 30px;
+border-radius: 20px;
+color: #fff;}
+
+#banner .slidelist .slideImg img{
+    width: 100%;
+}
