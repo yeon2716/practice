@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+.clearfix::after{content: ""; display: block;clear:both;}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+body>div{
+    min-width: 760px;
+    width: 100%;
+    margin: 0 auto;
+}
+
